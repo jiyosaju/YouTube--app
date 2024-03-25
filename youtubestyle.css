@@ -1,0 +1,701 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+
+}
+
+.header {
+    background-color: black;
+    height: 15%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+
+
+}
+
+.header1::-webkit-scrollbar {
+    height: 0px;
+}
+
+
+
+.logo-img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.img0 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+}
+
+#logo-text {
+    letter-spacing: -1.5px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-weight: bold;
+
+
+}
+
+.header1 {
+    padding-right:0px;
+    position: inherit;
+    overflow: scroll;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: -41px
+}
+
+.menu {
+    width: 35px;
+    height: 7px;
+    background-color: white;
+    margin: 7px 0px;
+
+}
+
+.menubar {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.search-container {
+    position: absolute;
+    top: 28px;
+    left: 422px;
+
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(74, 73, 73);
+}
+
+input::placeholder {
+
+    padding: 10px;
+    color: white;
+}
+
+.search {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 825px;
+    top: 32px;
+    background-color: rgb(67, 71, 71);
+    background-image: url(bootstrap-icons-1.10.5/search.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.mic {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 873px;
+    top: 32px;
+    background-color: rgb(67, 71, 71);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-image: url(bootstrap-icons-1.10.5/mic-fill.svg);
+}
+
+.video {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 1200px;
+    top: 32px;
+    background-color: rgb(67, 71, 71);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(bootstrap-icons-1.10.5/camera-video.svg);
+}
+
+.mb {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 1245px;
+    top: 32px;
+    background-color: rgb(67, 71, 71);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(bootstrap-icons-1.10.5/grid-3x3-gap-fill.svg );
+}
+
+.notification {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 1285px;
+    top: 32px;
+    background-color: rgb(67, 71, 71);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(bootstrap-icons-1.10.5/bell.svg);
+}
+
+.profile {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #f0f40c;
+    left: 1400;
+    top: 26px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.col_1 {
+    width: 15%;
+    height: 640px;
+    padding: 0px;
+    margin-top: 20px;
+    background-color: black;
+    position: relative;
+    overflow: scroll;
+}
+
+.col_1::-webkit-scrollbar {
+    width: 13px;
+    height: 0px;
+    background: #f8fef8de;
+}
+
+.col_1::-webkit-scrollbar-thumb {
+    background: #696570;
+    border-radius: 8px;
+}
+
+.home {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 10px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(bootstrap-icons-1.10.5/house-add.svg);
+}
+
+.explore {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 60px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/icon\ explorer.png);
+}
+
+.shorts {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 110px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/shorts.png);
+
+}
+
+.subscription {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 160px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/sub.png);
+}
+
+.liabrary {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 230px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/library.png);
+}
+
+.history {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 280px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/history.png);
+}
+
+.your_videos {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 330px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/video.png);
+}
+
+.watch_later {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 380px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/watch\ later.png);
+}
+
+.all_videos {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 430px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/playlist.png);
+}
+
+.show_more {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 480px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/arrow\ down.png);
+}
+
+.gaming {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 580px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/gaming.png);
+}
+
+.live {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 630px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/live.png);
+}
+
+.sports {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 680px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/award.png);
+}
+
+.settings {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 755px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/settings.png);
+}
+
+.report_history {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 805px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/report\ history.png);
+}
+
+.help {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 855px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/question.png);
+}
+
+.sent_feedback {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    left: 35px;
+    top: 905px;
+    background-color: rgb(242, 246, 246);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    border-radius: 20%;
+    background-image: url(image/feedback.png);
+}
+
+.homeh5 {
+    margin-left: 85px;
+    margin-top: 15px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.exploreh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.shortsh5 {
+    margin-left: 85px;
+    margin-top: 28px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.subscriptionh5 {
+    margin-left: 85px;
+    margin-top: 28px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.liabraryh5 {
+    margin-left: 85px;
+    margin-top: 22px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.historyh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.yourvideosh5 {
+    margin-left: 85px;
+    margin-top: 28px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.watchlaterh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.allvideosh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.showmoreh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.gamingh5 {
+    margin-left: 85px;
+    margin-top: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.liveh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.sportsh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.settingsh5 {
+    margin-left: 85px;
+    margin-top: 27px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.reporthistoryh5 {
+    margin-left: 85px;
+    margin-top: 28px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.helph5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.sentfeedbackh5 {
+    margin-left: 85px;
+    margin-top: 29px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+hr {
+    color: aqua;
+    margin-top: 25px;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.sidebaritem_1 {
+    text-decoration: none;
+
+}
+
+.col_2 {
+    width: 85%;
+    height: 640px;
+    margin-top: 20px;
+    background-color: white;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    padding: 0px;
+    
+    
+}
+
+.chipwraper {
+    margin-left: -12px;
+    margin-right: -12px;
+    overflow-x: scroll;
+    background-color: rgb(37, 39, 39);
+    display: flex;
+}
+.chip:hover{
+    background-color:darkslategrey;
+    
+}
+.chipwraper::-webkit-scrollbar {
+    height: 0px;
+}
+
+.chip {
+    margin: 8px 8px;
+    padding: 0px 26px;
+    background-color: #696570;
+    border: 1px solid black;
+    border-radius: 28px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: aliceblue;
+    transition: -5s;
+}
+
+p {
+    text-transform: capitalize;
+    font-size: 13px;
+    padding-top: 13px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box{
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.18);
+}
+.boxs{
+    transition: 1s;
+}
+.boxs:hover{
+    transform: scale(1.1);
+}
+.shortsheding {
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.shimage {
+    width: 40px;
+    height: 40px;
+}
+
+.col_2::-webkit-scrollbar {
+    height: 0px;
+    
+}
+
